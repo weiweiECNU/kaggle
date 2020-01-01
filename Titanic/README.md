@@ -2,7 +2,7 @@
 
 For kaggle competition [Titanic](https://www.kaggle.com/c/titanic/overview)
 
-Follow is the description of data.
+Follow is the description of data.
 
 ## Overview
 
@@ -58,3 +58,19 @@ Parent = mother, father
 Child = daughter, son, stepdaughter, stepson
 
 Some children travelled only with a nanny, therefore parch=0 for them.
+
+
+
+$x' = \frac{x-min(x)}{max(x)-min(x)}$
+
+$  {\parallel V - WH \parallel}^2 = \sum_{i=1}^{n}\sqrt{\sum_{j=1}^{p}{(V - WH)}^2_{ji}} $
+
+$min{\parallel V - WH \parallel}_{2,1} \quad  s.t. W>0, H>0$
+
+$W^{k+1} = W^{k} \frac{VDH^{T}}{WHDH^{T}} $
+
+$ H^{k+1} = H^{k} \frac{W^{T}VD}{W^{T}WHD} $
+
+$x' = \frac{x-\bar{x}}{\sigma}$
+
+$D = 1/\sqrt{\sum_{j=1}^{p}{(V - WH)}^2_{ji}}$
